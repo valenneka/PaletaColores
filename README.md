@@ -1,3 +1,3 @@
 # Paleta colores en Java
 
-![alt text](https://imgur.com/HkSoBOI)
+![IMGUR IMAGE](https://imgur.com/HkSoBOI)
