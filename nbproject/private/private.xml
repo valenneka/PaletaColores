@@ -2,6 +2,12 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+<<<<<<< HEAD
         <group/>
+=======
+        <group>
+            <file>file:/home/sunsh1ne/NetBeansProjects/achisColors/src/achiscolors/application.java</file>
+        </group>
+>>>>>>> 8a42d52 (CopyClipboard Actualizacion)
     </open-files>
 </project-private>
