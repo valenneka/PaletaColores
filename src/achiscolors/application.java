@@ -5,17 +5,14 @@
 package achiscolors;
 
 import java.awt.Color;
-<<<<<<< HEAD
 import javax.swing.ImageIcon;
 import javax.swing.JColorChooser;
-=======
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import javax.swing.ImageIcon;
 import javax.swing.JColorChooser;
 import javax.swing.JOptionPane;
->>>>>>> 8a42d52 (CopyClipboard Actualizacion)
 
 /**
  *
@@ -132,8 +129,8 @@ public class application extends javax.swing.JFrame {
         String hexColor = String.format("#%02X%02X%02X", Color.getRed(), Color.getGreen(), Color.getBlue());
         PanelColor.setBackground(Color);
         textoColor.setText(hexColor);
-<<<<<<< HEAD
-=======
+
+
         try {
         Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
         StringSelection selection = new StringSelection(hexColor);
@@ -142,7 +139,7 @@ public class application extends javax.swing.JFrame {
         } catch (Exception e) {
         JOptionPane.showMessageDialog(null, "Hubo un error al copiar el hex en el portapapeles.");
         }
->>>>>>> 8a42d52 (CopyClipboard Actualizacion)
+
     }//GEN-LAST:event_seleccionColorActionPerformed
 
     /**
